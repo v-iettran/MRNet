@@ -1,0 +1,2 @@
+best_epoch,train_loss,train_auc,val_loss,val_auc,val_accuracy,val_precision,val_recall,val_f1,val_sensitivity,val_specificity,backbone,task,plane,checkpoint_dir
+4,0.8347856023274691,0.8321,1.1820445451885462,0.8603,0.8,0.7885,0.7593,0.7736,0.7593,0.8333,resnet50,acl,sagittal,/home/viet/AI-for-MIA/codes/results/checkpoints/resnet50_plain_gpu

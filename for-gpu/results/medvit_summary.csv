@@ -1,0 +1,2 @@
+best_epoch,train_loss,train_auc,val_loss,val_auc,val_accuracy,val_precision,val_recall,val_f1,val_sensitivity,val_specificity,backbone,task,plane,checkpoint_dir
+10,0.5922547580431158,0.9185,0.5391242375131696,0.966,0.9167,0.8793,0.9444,0.9107,0.9444,0.8939,medvit,acl,sagittal,/home/viet/AI-for-MIA/codes/results/checkpoints/medvit_plain_gpu

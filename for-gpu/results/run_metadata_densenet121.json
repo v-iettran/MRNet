@@ -1,0 +1,15 @@
+{
+  "started": "2026-06-17T20:32:46.623545+02:00",
+  "backbone": "densenet121",
+  "task": "acl",
+  "plane": "sagittal",
+  "lr": 0.0001,
+  "epochs": 50,
+  "patience": 10,
+  "accumulation_steps": 8,
+  "num_workers": 6,
+  "output_size": 256,
+  "hostname": "spark-2e7f",
+  "data_dir": "/home/viet/AI-for-MIA/mrnet",
+  "smoke_test": false
+}

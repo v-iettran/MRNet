@@ -1,0 +1,18 @@
+{
+  "started": "2026-06-22T15:55:25.147325+02:00",
+  "variant": "alexnet_baseline",
+  "backbone": "alexnet_baseline",
+  "train_augment": "medium",
+  "task": "acl",
+  "plane": "sagittal",
+  "lr": 1e-05,
+  "weight_decay": 0.1,
+  "epochs": 50,
+  "patience": 10,
+  "accumulation_steps": 8,
+  "num_workers": 6,
+  "output_size": 256,
+  "hostname": "spark-2e7f",
+  "data_dir": "/home/viet/AI-for-MIA/mrnet",
+  "smoke_test": false
+}

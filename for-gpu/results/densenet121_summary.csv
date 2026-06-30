@@ -1,0 +1,2 @@
+best_epoch,train_loss,train_auc,val_loss,val_auc,val_accuracy,val_precision,val_recall,val_f1,val_sensitivity,val_specificity,backbone,task,plane,checkpoint_dir
+5,0.4509407163082531,0.9555,0.3664063127012923,0.9905,0.9333,0.8966,0.963,0.9286,0.963,0.9091,densenet121,acl,sagittal,/home/viet/AI-for-MIA/codes/results/checkpoints/densenet121_plain_gpu

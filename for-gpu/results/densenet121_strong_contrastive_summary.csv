@@ -1,0 +1,2 @@
+best_epoch,train_loss,train_auc,val_loss,val_auc,val_accuracy,val_precision,val_recall,val_f1,val_sensitivity,val_specificity,variant,backbone,use_cbam,contrastive,train_augment,task,plane,checkpoint
+19,0.3355065540863877,0.9782,1.5027865679003298,0.9021,0.8333,0.8864,0.7222,0.7959,0.7222,0.9242,densenet121_strong_contrastive,densenet121,False,True,strong,acl,sagittal,/home/viet/AI-for-MIA/codes/results/checkpoints/densenet121_strong_contrastive_gpu/best_densenet121_strong_contrastive.pth

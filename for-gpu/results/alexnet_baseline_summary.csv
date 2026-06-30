@@ -1,0 +1,2 @@
+best_epoch,train_loss,train_auc,val_loss,val_auc,val_accuracy,val_precision,val_recall,val_f1,val_sensitivity,val_specificity,variant,backbone,use_cbam,contrastive,train_augment,task,plane,checkpoint
+36,0.6334454197106899,0.9145,0.9285983364408215,0.9307,0.8667,0.8393,0.8704,0.8545,0.8704,0.8636,alexnet_baseline,alexnet_baseline,False,False,medium,acl,sagittal,/home/viet/AI-for-MIA/codes/results/checkpoints/alexnet_baseline_gpu/best_alexnet_baseline.pth

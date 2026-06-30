@@ -1,0 +1,2 @@
+best_epoch,train_loss,train_auc,val_loss,val_auc,val_accuracy,val_precision,val_recall,val_f1,val_sensitivity,val_specificity,variant,backbone,use_cbam,contrastive,train_augment,task,plane,checkpoint
+22,,,0.680552,0.9386,0.8167,0.75,0.8889,0.8136,0.8889,0.7576,medvit_strong,medvit,False,False,strong,acl,sagittal,/home/viet/AI-for-MIA/codes/results/checkpoints/medvit_strong_gpu/best_medvit_strong.pth

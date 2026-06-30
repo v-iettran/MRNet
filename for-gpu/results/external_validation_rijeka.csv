@@ -1,0 +1,6 @@
+model,backbone,input_px,use_cbam,mrnet_val_auc,n_scored,AUC,Accuracy,Precision,F1,Sensitivity,Specificity
+alexnet_baseline,alexnet_baseline,256,False,0.9307,736,0.7465,0.7785,0.6444,0.4158,0.3069,0.9415
+densenet121_cbam_pretuned,densenet121,256,True,0.9733,736,0.8689,0.8655,0.7848,0.7147,0.6561,0.9378
+densenet121_cbam_postuned,densenet121,256,True,0.9635,736,0.8666,0.8573,0.7763,0.6921,0.6243,0.9378
+medvit_pretuned,medvit,224,False,0.9386,736,0.724,0.7065,0.4462,0.5091,0.5926,0.7459
+medvit_postuned,medvit,224,False,0.947,736,0.816,0.7948,0.6188,0.5673,0.5238,0.8885

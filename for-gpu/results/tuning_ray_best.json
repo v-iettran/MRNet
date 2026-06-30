@@ -1,0 +1,26 @@
+{
+  "densenet121_strong_cbam": {
+    "best_val_auc": 0.9635,
+    "best_config": {
+      "optimizer": "AdamW",
+      "lr": 0.0001,
+      "weight_decay": 0.1,
+      "dropout": 0.5,
+      "accumulation_steps": 8
+    },
+    "ran_on": "spark-cdf0",
+    "checkpoint": "/home/viet/AI-for-MIA/codes/model_checkpoints/densenet121_strong_cbam_tuned/best_densenet121_strong_cbam_optAdamW_lr0.0001_wd0.1_do0.5_acc8.pth"
+  },
+  "medvit_strong": {
+    "best_val_auc": 0.947,
+    "best_config": {
+      "optimizer": "SGD",
+      "lr": 0.0003,
+      "weight_decay": 0.0,
+      "dropout": 0.5,
+      "accumulation_steps": 4
+    },
+    "ran_on": "spark-cdf0",
+    "checkpoint": "/home/viet/AI-for-MIA/codes/model_checkpoints/medvit_strong_tuned/best_medvit_strong_optSGD_lr0.0003_wd0.0_do0.5_acc4.pth"
+  }
+}

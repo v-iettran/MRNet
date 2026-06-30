@@ -1,0 +1,22 @@
+{
+  "started": "2026-06-22T12:10:19.537803+02:00",
+  "variant": "densenet121_strong_cbam",
+  "backbone": "densenet121",
+  "use_cbam": true,
+  "contrastive": false,
+  "dropout": 0.0,
+  "train_augment": "strong",
+  "task": "acl",
+  "plane": "sagittal",
+  "lr": 0.0001,
+  "epochs": 50,
+  "patience": 10,
+  "supcon_epochs": 10,
+  "supcon_batch": 8,
+  "accumulation_steps": 8,
+  "num_workers": 6,
+  "output_size": 256,
+  "hostname": "spark-2e7f",
+  "data_dir": "/home/viet/AI-for-MIA/mrnet",
+  "smoke_test": false
+}

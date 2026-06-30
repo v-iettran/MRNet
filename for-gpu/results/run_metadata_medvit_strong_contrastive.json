@@ -1,0 +1,22 @@
+{
+  "started": "2026-06-20T00:54:25.227511+02:00",
+  "variant": "medvit_strong_contrastive",
+  "backbone": "medvit",
+  "use_cbam": false,
+  "contrastive": true,
+  "dropout": 0.0,
+  "train_augment": "strong",
+  "task": "acl",
+  "plane": "sagittal",
+  "lr": 0.0001,
+  "epochs": 50,
+  "patience": 10,
+  "supcon_epochs": 10,
+  "supcon_batch": 8,
+  "accumulation_steps": 8,
+  "num_workers": 6,
+  "output_size": 224,
+  "hostname": "spark-2e7f",
+  "data_dir": "/home/viet/AI-for-MIA/mrnet",
+  "smoke_test": false
+}

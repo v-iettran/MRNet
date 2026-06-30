@@ -1,0 +1,2 @@
+loss,auc,accuracy,precision,recall,f1,sensitivity,specificity,tp,tn,fp,fn,n_pos,n_neg,task,plane,finetune,checkpoint
+0.7770889227588972,0.6954264870931538,0.5166666666666667,0.48148148148148145,0.9629629629629629,0.6419753086419752,0.9629629629629629,0.15151515151515152,52,10,56,2,54,66,acl,sagittal,False,/home/viet/AI-for-MIA/codes/results/checkpoints/medvit_acl_gpu.pt

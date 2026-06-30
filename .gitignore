@@ -1,0 +1,16 @@
+# Local GPU virtualenv (architecture-specific; rebuild with for-gpu/setup_env.sh)
+for-gpu/.venv/
+
+# Trained model weights (large binaries; regenerate via the training pipeline)
+model_checkpoints/**/*.pth
+model_checkpoints/**/*.pt
+
+# Training/orchestration logs and process-id files
+for-gpu/results/logs/
+
+# Smoke-test scratch outputs
+for-gpu/results/smoke/
+
+# Python caches
+__pycache__/
+*.pyc

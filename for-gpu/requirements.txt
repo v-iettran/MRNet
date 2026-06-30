@@ -1,0 +1,19 @@
+# Python deps for the MedViT GPU runner on the DGX Spark (GB10, ARM64/aarch64).
+#
+# IMPORTANT: torch / torchvision are NOT pinned here because the correct build
+# depends on the CUDA toolkit on the box (CUDA 13 on this node) and the ARM64
+# architecture. setup_env.sh installs them from the matching PyTorch index.
+# Everything below is architecture-independent.
+
+# MedViT backbone deps (from MedViT/requirements.txt, the parts we actually use).
+timm==1.0.8
+einops
+fvcore
+
+# Data pipeline + training + metrics.
+numpy
+pandas
+scikit-learn
+scikit-image
+Pillow
+tqdm

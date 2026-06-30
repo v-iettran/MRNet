@@ -1,0 +1,10 @@
+{
+  "variant": "medvit_strong_contrastive",
+  "best_val_auc": 0.9242,
+  "best_config": {"optimizer": "AdamW", "lr": 0.0001, "weight_decay": 0.1, "dropout": 0.5, "accumulation_steps": 8},
+  "pretuning_val_auc": 0.9113,
+  "n_trials": 10,
+  "tuning_epochs": 20,
+  "ran_on": "SBIGPUServer1 (2x RTX A6000, 2 trials/GPU)",
+  "checkpoint": "model_checkpoints/medvit_strong_contrastive_tuning/best_medvit_strong_contrastive_tuned.pth"
+}

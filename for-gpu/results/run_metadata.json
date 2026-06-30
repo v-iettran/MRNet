@@ -1,0 +1,20 @@
+{
+  "started": "2026-06-14T22:03:15.637966+02:00",
+  "sections": [
+    "supcon"
+  ],
+  "task": "acl",
+  "plane": "sagittal",
+  "finetune": false,
+  "num_workers": 8,
+  "accumulation_steps": 8,
+  "epochs": {
+    "plain": 15,
+    "aug": 10,
+    "supcon": 10,
+    "probe": 15
+  },
+  "hostname": "spark-2e7f",
+  "data_dir": "/home/viet/AI-for-MIA/mrnet",
+  "smoke_test": false
+}
